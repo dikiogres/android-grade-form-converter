@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editText_nilaiTugas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai Tugas"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editText_nilaiKuis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai Kuis"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editText_nilaiETS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai ETS"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editText_nilaiEAS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai EAS"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editText_nilaiFP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai FP"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Grade"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textView_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
